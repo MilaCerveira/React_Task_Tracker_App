@@ -1,10 +1,10 @@
 import React from 'react'
-import { FaTimes } from 'react-icons/fa'
+import { FaTrash } from 'react-icons/fa'
 
 const Task = ({ task }) => {
     return (
         <div className='task'>
-            <h3>{task.text} <FaTimes />
+            <h3>{task.text} <FaTrash />
             </h3>
             <p>{task.day}</p>
             
